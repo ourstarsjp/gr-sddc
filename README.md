@@ -7,10 +7,10 @@ The Direct Sampling SDR's GNURadio Module for SDDC(software digital down convert
 - RX888R2
 - RX888R3
 - RX999
- *** Supporting Direct Sampling Mode Only. ***
+- *** Supporting Direct Sampling Mode Only. ***
 
 <p align="center">
-<img src="./images/one_qubit_bloch_freq.PNG" width="75%" />
+<img src="./images/SDDC_simple_sample.png" width="75%" />
 </p>
 
 ## Installation
