@@ -1,0 +1,37 @@
+id: sddc_sddc_source
+label: sddc_source
+category: '[sddc]'
+
+templates:
+  imports: import sddc
+  make: sddc.sddc_source(${rate},${firmware_path},${device_select},${antenna})
+
+parameters:
+- id: rate
+  label: Sample Rate (Hz)
+  dtype: int
+  options: [2000000, 4000000, 8000000, 16000000, 32000000, 64000000]
+  option_labels: [2000000, 4000000, 8000000, 16000000, 32000000, 64000000]
+  default: 32000000
+- id: firmware_path
+  label: FX3's Firmware Full Path
+  dtype: string
+- id: device_select
+  label: Device Select
+  dtype: int
+  default: 0
+- id: antenna
+  label: Antenna Select
+  dtype: string
+  options: [RX1]
+  option_labels: [RX1]
+  default: RX1
+
+outputs:
+- domain: stream
+  dtype: complex
+
+documentation: |-
+    The Direct Sampling SDR's GNURadio Module for SDDC(software digital down converter).
+
+file_format: 1
