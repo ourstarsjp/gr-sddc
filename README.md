@@ -52,12 +52,12 @@ Required dependencies:
 ## Usage SDDC_source Block
 1. Put sddc/SDDC_source Block & QT GUI Block on GNURadio Flow canbus.
 1. Setup All Parameters of SDDC_source Block.
- 1. Sample Rate (Hz) : Select this from 32M, 16M, 8M, 4M, 2M.
- 1. firmware_path : SDDC_FX3.img's Full Path.
- 1. device_select : The 1st device is "0".
- 1. antenna : RX1 Only.
+  1. Sample Rate (Hz) : Select this from 32M, 16M, 8M, 4M, 2M.
+  1. firmware_path : SDDC_FX3.img's Full Path.
+  1. device_select : The 1st device is "0".
+  1. antenna : RX1 Only.
 1. Setup a Sample Rate's Parameter of QT GUI Block.
- 1. Sample Rate (Hz) : SDDC_source Block's Sample Rate.
+  1. Sample Rate (Hz) : SDDC_source Block's Sample Rate.
 
 <p align="center">
 <img src="./images/SDDC_simple_sample.png" width="75%" />
